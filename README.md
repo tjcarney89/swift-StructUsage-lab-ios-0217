@@ -104,6 +104,15 @@ You should do this for every single one of these stored properties. After you fi
     }
 ```
 
+The names of your characters **must** be the following:
+
+* "Finn The Human"
+* "Jake The Dog"
+* "Princess Bubblegum"
+* "Lemongrab"
+* "BMO"
+* "Lumpy Space Princess"
+
 **11** Create a function called `updateViews(with:)` that takes in one argument labeled `character` of type `Character`
 
 
