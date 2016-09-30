@@ -44,9 +44,6 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FL2-1I-Ceg">
                                                         <state key="normal" title="Finn"/>
-                                                        <connections>
-                                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j9c-ly-qbj"/>
-                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -113,18 +110,6 @@
                             <constraint firstItem="UQf-DI-ejY" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="whb-qz-ZhM"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="bmoButton" destination="FL2-1I-Ceg" id="zk9-ab-1QM"/>
-                        <outlet property="bubbleGumButton" destination="W1m-QI-yUk" id="dTT-FW-38s"/>
-                        <outlet property="characterImageView" destination="Gkg-PK-yKt" id="6XW-Zd-BLp"/>
-                        <outlet property="finnButton" destination="yUs-2Y-iws" id="9Um-9J-vdc"/>
-                        <outlet property="jakeButton" destination="JZp-PV-Wqr" id="pcA-lS-hJf"/>
-                        <outlet property="lemongrabButton" destination="kfq-HG-vtZ" id="4hy-pI-BUO"/>
-                        <outlet property="lumpyButton" destination="DTd-ua-jsJ" id="sdn-DK-Xkm"/>
-                        <outlet property="nameLabel" destination="Awl-EZ-K7E" id="JDT-hk-s3m"/>
-                        <outlet property="occuptationLabel" destination="S5L-jQ-mRD" id="LSN-s4-Wo1"/>
-                        <outlet property="speciesLabel" destination="Egf-mO-6Im" id="6JJ-Ee-P2F"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
