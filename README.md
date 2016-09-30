@@ -115,6 +115,28 @@ The names of your characters **must** be the following:
 
 **11** Create a function called `updateViews(with:)` that takes in one argument labeled `character` of type `Character`
 
+It's on you to then update the `UIImageView` and the three `UILabel`'s with the info from the `character` argument passed in to this function. 
+
+Hint: Take a look at the `displayImage()` function I had you copy/paste in earlier. Notice the return type. End of hint.
+
+**12** You should have already done this, but all of your `UIButton`'s when tapped will call on the `buttonTapped(_:)` action that you created earlier. `sender` is the argument to that function and it should be of type `UIButton`. So that means when any of these buttons are tapped, they are passing themselves along as the argument to this function and you're able to communicate with said button by referring to the `sender` argument.
+
+That all being said, each of this `UIButton`'s is labeled with some text (as described earlier).  I'll copy/paste the title's of these buttons here again:
+
+* "Finn"
+* "Jake"
+* "Bubblegum"
+* "BMO"
+* "Lemongrab"
+* "LSP"
+
+In order to access this text on a button, you do so as follows:
+
+```swift
+sender.titleLabel!.text!
+```
+
+That line of code will return back a `String`. I want you to switch on that `String` and within the various cases, you should call on the `updateViews(with:)` function passing along the appropriate `Character` instance which will then update all of the views to reflect that particular character.
 
 
 <a href='https://learn.co/lessons/StructUsage' data-visibility='hidden'>View this lesson on Learn.co</a>
