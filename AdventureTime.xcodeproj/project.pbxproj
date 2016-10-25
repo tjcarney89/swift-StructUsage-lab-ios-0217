@@ -12,7 +12,6 @@
 		5BAD02201D9EBAC600204B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BAD021E1D9EBAC600204B95 /* Main.storyboard */; };
 		5BAD02221D9EBAC600204B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BAD02211D9EBAC600204B95 /* Assets.xcassets */; };
 		5BAD02251D9EBAC600204B95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BAD02231D9EBAC600204B95 /* LaunchScreen.storyboard */; };
-		5BAD02301D9EBAC700204B95 /* AdventureTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD022F1D9EBAC700204B95 /* AdventureTimeTests.swift */; };
 		5BAD023D1D9EBDBF00204B95 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD023C1D9EBDBF00204B95 /* Character.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,8 +34,6 @@
 		5BAD02241D9EBAC600204B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BAD02261D9EBAC600204B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BAD022B1D9EBAC700204B95 /* AdventureTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventureTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BAD022F1D9EBAC700204B95 /* AdventureTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureTimeTests.swift; sourceTree = "<group>"; };
-		5BAD02311D9EBAC700204B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BAD023C1D9EBDBF00204B95 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				5BAD02191D9EBAC600204B95 /* AdventureTime */,
-				5BAD022E1D9EBAC700204B95 /* AdventureTimeTests */,
 				5BAD02181D9EBAC600204B95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,15 +92,6 @@
 				5B81303A1D9EE14100460DDF /* Supporting Files */,
 			);
 			path = AdventureTime;
-			sourceTree = "<group>";
-		};
-		5BAD022E1D9EBAC700204B95 /* AdventureTimeTests */ = {
-			isa = PBXGroup;
-			children = (
-				5BAD022F1D9EBAC700204B95 /* AdventureTimeTests.swift */,
-				5BAD02311D9EBAC700204B95 /* Info.plist */,
-			);
-			path = AdventureTimeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +209,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BAD02301D9EBAC700204B95 /* AdventureTimeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
